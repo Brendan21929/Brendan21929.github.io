@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+html{
+    /* font-family: 'Gloock', serif; */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1560px 800px;
+
+}
+
+div.absolute {
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+    border: 3px solid #8AC007;
+  }
+
+/* Columns nearby */
+.flexbox-grid{
+    display:flex;
+    gap: 20px; 
+}
+
+/* The setting for both the img and text in first column */
+.column{
+    border-radius: 15px; 
+    flex:1;
+}
+
+/* My photo album */
+h1{
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+/* The first image on the right in first column */
+.column img{
+    width:100%;
+    flex:1;
+    border-radius: 30px; 
+}
+
+/* The content of the left text in first column*/
+.column p{
+    color:white;
+    font-size: 20px;
+}
+
+/* THe title for both the title in first column */
+.column h3{
+    color:white;
+    font-size: 30px;
+}

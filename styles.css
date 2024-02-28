@@ -15,26 +15,43 @@ div.absolute {
     width: 50%;
     border: 3px solid #8AC007;
   }
+
+/* Columns nearby */
 .flexbox-grid{
     display:flex;
     gap: 20px; 
 }
 
+/* The setting for both the img and text in first column */
 .column{
     border-radius: 15px; 
     flex:1;
 }
 
+/* My photo album */
 h1{
     text-align: center;
-    color: white;
+    color: black;
     letter-spacing: 5px;
     font-size: 50px;
     font-family: cursive;
 }
 
+/* The first image on the right in first column */
 .column img{
     width:50%;
     flex:1;
     border-radius: 30px; 
+}
+
+/* The content of the left text in first column*/
+.column p{
+    color:white;
+    font-size: 20px;
+}
+
+/* THe title for both the title in first column */
+.column h3{
+    color:white;
+    font-size: 30px;
 }
