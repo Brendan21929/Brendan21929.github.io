@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+  }
+  
+
+  h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+
+  }
+  
+  #image-track {
+    display: flex;
+  }
+
+  #image-track > .image {
+    width: 35vmin;
+    height: 42vmin;
+    border-radius: 50px; 
+    padding: 8px;
+  }
+  
